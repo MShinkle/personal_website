@@ -1,0 +1,48 @@
+title: Matthew W. Shinkle
+tagline: AI Safety Researcher
+bio: >-
+  AI safety researcher currently based in Sunnyvale. PhD in Cognitive and Brain
+  Sciences from the University of Nevada, Reno, where I studied mappings between
+  deep neural networks and the human brain. Background in psychology, neuroscience,
+  and philosophy.
+
+url: https://matthewshinkle.com
+baseurl: ""
+
+social:
+  - name: CV
+    url: /assets/Matthew_Shinkle_CV.pdf
+    icon: cv
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=bIcgPiwAAAAJ
+    icon: scholar
+  - name: GitHub
+    url: https://github.com/MShinkle
+    icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/matthewshinkle/
+    icon: linkedin
+  - name: Email
+    url: mailto:matthewshinkle@gmail.com
+    icon: email
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - current_site
