@@ -99,10 +99,26 @@ h1, h2, h3, h4 {
   margin-bottom: 0.75rem;
 }
 
-.intro-text > p {
-  margin-bottom: 0.75rem;
+.bio p {
+  margin-bottom: 0.6rem;
   font-size: 0.95rem;
   color: var(--color-text-secondary);
+  line-height: 1.55;
+}
+
+.bio p:last-child {
+  margin-bottom: 0;
+}
+
+.bio a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.bio a:hover {
+  color: var(--color-accent-hover);
 }
 
 /* Social icon links */
