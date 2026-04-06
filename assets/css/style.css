@@ -336,7 +336,6 @@ h1, h2, h3, h4 {
 .project-content img {
   border-radius: 0;
   margin: 1.5rem auto;
-  box-shadow: var(--shadow-sm);
   width: auto;
   max-width: 100%;
 }
@@ -347,6 +346,10 @@ h1, h2, h3, h4 {
 
 .project-content img.full-width {
   width: 100%;
+}
+
+.project-content img.ninety-width {
+  max-width: 90%;
 }
 
 .project-content img.half-width {

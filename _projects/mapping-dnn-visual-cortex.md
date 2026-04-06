@@ -8,7 +8,9 @@ links:
     url: https://arxiv.org/abs/2501.01960
 ---
 
-*This work was done while working as a PhD student at the University of Nevada, Reno, supervised by [Mark Lescroart](https://piecesofmind.psyc.unr.edu/).*
+*This work was done while working as a PhD student at the University of Nevada, Reno, supervised by Mark Lescroart.*
+
+*For a followup project leveraging this method to visualize and actually control brain responses, see [here](/projects/controlling-brain-responses/).*
 
 Vision AI systems often learn internal representations that closely resemble features represented in the human brain. In this project, I developed a set of techniques for using DNN activations to simulate fMRI responses across the human visual cortex. I find that these methods are highly effective, enabling novel neuroscience experiments without any additional brain responses.
 
@@ -34,7 +36,7 @@ I first wanted to measure how accurate our simulations were in the parts of the 
 
 I then wanted to see whether these simulations also work for areas later in visual processing—the regions that respond to higher-level things like faces, bodies, and scenes. I simulated responses to standard images from each of these categories and compared the resulting patterns to real brain data. The results closely match: body selectivity in EBA, face selectivity in OFA and FFA, scene selectivity in OPA, PPA, and RSC—all emerge clearly, highlighting the same regions that light up when real human subjects view these images.
 
-![Category selectivity contrasts](/assets/img/mapping-dnn-visual-cortex/category_contrasts.png){: .full-width}
+![Category selectivity contrasts](/assets/img/mapping-dnn-visual-cortex/category_contrasts.png){: .ninety-width}
 
 <div class="section-divider"></div>
 

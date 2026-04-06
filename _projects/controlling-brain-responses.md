@@ -10,7 +10,7 @@ links:
     url: http://piecesofmind.psyc.unr.edu/pycortex/activation_maximization/
 ---
 
-*This work was done while working as a PhD student at the University of Nevada, Reno, supervised by [Mark Lescroart](https://piecesofmind.psyc.unr.edu/).*
+*This work was done while working as a PhD student at the University of Nevada, Reno, supervised by Mark Lescroart.*
 
 *If you only come away with one thing from this post, it should probably be this [interactive brain viewer](http://piecesofmind.psyc.unr.edu/pycortex/activation_maximization/). Click anywhere on the brain that is colored to see an image synthesized for that specific chunk of the brain!*
 
