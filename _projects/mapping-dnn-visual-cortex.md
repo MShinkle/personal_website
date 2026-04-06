@@ -34,7 +34,7 @@ I first wanted to measure how accurate our simulations were in the parts of the 
 
 I then wanted to see whether these simulations also work for areas later in visual processing—the regions that respond to higher-level things like faces, bodies, and scenes. I simulated responses to standard images from each of these categories and compared the resulting patterns to real brain data. The results closely match: body selectivity in EBA, face selectivity in OFA and FFA, scene selectivity in OPA, PPA, and RSC—all emerge clearly, highlighting the same regions that light up when real human subjects view these images.
 
-![Category selectivity contrasts](/assets/img/mapping-dnn-visual-cortex/category_contrasts.png)
+![Category selectivity contrasts](/assets/img/mapping-dnn-visual-cortex/category_contrasts.png){: .full-width}
 
 <div class="section-divider"></div>
 

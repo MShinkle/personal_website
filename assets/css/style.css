@@ -345,6 +345,10 @@ h1, h2, h3, h4 {
   border-radius: var(--radius);
 }
 
+.project-content img.full-width {
+  width: 100%;
+}
+
 .project-content img.half-width {
   max-width: 50%;
 }
