@@ -1,7 +1,7 @@
 ---
 title: "Compositional Feature Mapping (CFM)"
 date: 2025-04-01
-image: /assets/img/compositional-feature-mapping/cfm_results.png
+image: /assets/img/compositional-feature-mapping/cfm_weights.png
 tags: [Neuroscience, AI]
 links: []
 ---
