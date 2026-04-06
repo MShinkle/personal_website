@@ -24,7 +24,7 @@ social:
 collections:
   projects:
     output: true
-    permalink: /projects/:slug/
+    permalink: /projects/:title/
 
 defaults:
   - scope:

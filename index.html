@@ -24,9 +24,10 @@ title: Matthew W. Shinkle
 </header>
 
 <main class="projects">
-  <h2>Projects</h2>
+  <h2>Projects (WIP: more writeups coming soon)</h2>
   {% assign sorted_projects = site.projects | sort: "date" | reverse %}
   {% for project in sorted_projects %}
+  {% unless project.draft %}
   <a href="{{ project.url | relative_url }}" class="project-card">
     {% if project.image %}
     <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-card-image">
@@ -34,8 +35,13 @@ title: Matthew W. Shinkle
     <div class="project-card-body">
       <h3>{{ project.title }}</h3>
       <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%B %Y" }}</time>
-      {{ project.excerpt }}
+      {% if project.tags %}
+      <div class="tags">
+        <span class="tag-label">Tags:</span> {% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
+      {% endif %}
     </div>
   </a>
+  {% endunless %}
   {% endfor %}
 </main>

@@ -5,3 +5,6 @@ _site/
 Gemfile.lock
 .DS_Store
 current_site/
+vendor/
+.bundle/
+source_materials/
