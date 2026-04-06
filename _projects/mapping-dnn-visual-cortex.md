@@ -20,7 +20,7 @@ Vision AI systems often learn internal representations that closely resemble fea
 
 My core goal was to build a predictive mapping from DNN activations to brain responses. For a DNN, I selected the Inception V3 model, a convolutional neural network trained for classifying the contents of images. I then took a large set of video clips, broke them into frames, and recorded the responses of each internal layer of the inception model to each frame of the videos. I then took actual human brain responses, recorded via fMRI, and used regression to learn a computational 'mapping' between DNN activations and brain responses.
 
-![Methods overview](/assets/img/mapping-dnn-visual-cortex/methods.png){: .two-thirds-width}
+![Methods overview](/assets/img/mapping-dnn-visual-cortex/methods.png){: .ninety-width}
 
 A key challenge was managing the high dimensionality of DNN activations—even a relatively compact network generates millions of activations per stimulus. Prior work has addressed this by only using individual DNN layers or by applying dataset-specific dimensionality reduction. Both approaches have clear downsides: single-layer models can't capture the full range of cortical selectivity, and dataset-dependent reductions require additional data and recalibration for each new setting. I tried a variety of approaches to handling this, but ultimately found that a combination of adaptive spatial pooling and applying PCA to the *weights* of the Inception model was as or more effective at preserving brain-like features compared to previous approaches, while avoiding all of their downsides.
 

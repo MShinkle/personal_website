@@ -1,5 +1,5 @@
 ---
-title: "Novel Body-Selective Regions Responsive to Bodies Away from the Center of Gaze"
+title: "Discovering New Body-Selective Brain Regions"
 date: 2025-05-01
 image: /assets/img/prf_brain.jpg
 draft: true
