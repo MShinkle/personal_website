@@ -6,4 +6,4 @@ tags: [AI]
 links: []
 ---
 
-[Coming Soon]
+[Writeup Coming Soon]

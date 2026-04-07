@@ -6,4 +6,4 @@ tags: [Neuroscience]
 links: []
 ---
 
-[Coming Soon]
+[Writeup Coming Soon]

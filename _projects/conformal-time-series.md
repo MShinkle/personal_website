@@ -6,4 +6,4 @@ tags: [AI, Power Systems]
 links: []
 ---
 
-[Coming Soon]
+[Writeup Coming Soon]
