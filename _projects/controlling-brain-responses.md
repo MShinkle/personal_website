@@ -42,7 +42,7 @@ If you find anything interesting yourself, I'd love to hear about it!
 
 These images are optimized for simulated brain responses. But do they *actually* drive *real* responses in the human brain? We tested this by first generating images for five brain regions with diverse visual selectivity--V3 (early visual processing), LO (objects), EBA (bodies), FFA (faces), and RSC (scenes). We then collected real fMRI responses from human subjects while they viewed these synthesized images.
 
-This actually works quite well! For both of our subjects, 4/5 region responded most strongly to images optimized specifically for them, over images optimized for other regions. 
+This actually works quite well! For all cases, our synthesized images drive responses in the targeted regions. Furthermore, for both of our subjects, 4/5 region responded most strongly to images optimized specifically for them, over images optimized for other regions. So they don't just drive responses in the brain in general, they drive responses *especially in the regions they were optimized for*.
 
 ![ROI-optimized images and results](/assets/img/feature-visualization/roi_images.png)
 

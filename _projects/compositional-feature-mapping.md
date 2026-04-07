@@ -46,7 +46,7 @@ Shown below, both the encoding model and the CFM model accurately predict brain 
 
 ![CFM comparison](/assets/img/compositional-feature-mapping/cfm_comparison.png)
 
-We can also look at the weights of the CFM model, which dictate the mapping from features to brain responses. Looking just where these weights are high (red), we find patches of strong selectivity in only a few spots: EBA, OFA and FFA, and pSTS (another known body-procession area). Unlike standard encoding models, CFM excells at **specificity**--it only highlights areas that are really selective for the features being studied.
+We can also look at the weights of the CFM model, which dictate the mapping from features to brain responses. Looking just where these weights are high (red), we find patches of strong selectivity in only a few spots: EBA, OFA and FFA, and pSTS (another known body-procession area). Unlike standard encoding models, CFM excels at **specificity**--it only highlights areas that are really selective for the features being studied.
 
 ![CFM weights](/assets/img/compositional-feature-mapping/cfm_weights.png)
 
