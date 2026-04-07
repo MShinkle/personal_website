@@ -54,4 +54,4 @@ Side note: if you look closely at the above figure, you might notice two other s
 
 (Hint: see [Discovering New Body-Selective Brain Regions](/projects/novel-body-selective-regions/).)
 
-*For more details and results, see my [dissertation](https://search.proquest.com/openview/afad0c719d928c55d636640b71b28b94/1?pq-origsite=gscholar&cbl=18750&diss=y).*
+*For more details and results, see Chapter 2, Section 2.3.3 ("Fitting Encoding Models on Simulated Responses") of my [dissertation](https://search.proquest.com/openview/afad0c719d928c55d636640b71b28b94/1?pq-origsite=gscholar&cbl=18750&diss=y).*
