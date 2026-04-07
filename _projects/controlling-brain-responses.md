@@ -46,7 +46,11 @@ This actually works quite well! For both of our subjects, 4/5 region responded m
 
 ![ROI-optimized images and results](/assets/img/feature-visualization/roi_images.png)
 
-We also found in a second analysis (see the paper) that these images generalize well across subjects -- images optimized based on simulated responses for one set of subjects succeed at controlling the real brain responses in a *separate* set of subjects.
+I recommend zooming in on the images themselves--what do you see? The fact that these stimulate these regions makes sense: if the image looks like a face, the face-processing regions in your brain will be firing, and if it looks like a scene, the scene-processing regions will fire instead. After all, seeing a face is what it '[feels like](https://www.jneurosci.org/content/32/43/14915)' to have the face areas in your brain fire.
+
+And remember that we never 'tell' the algorithm what a given region processes; it just figures out that "this region's responses look like these activations inside the DNN", and then synthesizes an image to drive those features. The fact that they work both *objectively* (they cause the targeted regions to fire) and *subjectively* (they look like what we think those regions respond to) shows how powerful this method is.
+  
+(Side note: We also found in a second analysis (see the paper) that these images generalize well across subjects -- images optimized based on simulated responses for one set of subjects succeed at controlling the real brain responses in a *separate* set of subjects.)
 
 <div class="section-divider"></div>
 
@@ -66,6 +70,6 @@ We also wanted to see whether these images *actually* drove just the region they
 
 This project shows that DNN-based simulations enable the use of techniques that would otherwise be impractical or impossible with the human brain. This is a powerful opportunity to study the brain like never before. DNN-to-brain mappings mean that many techniques from AI interpretability can be translated directly to neuroscience, meaning that as our understanding of AI grows, so can our understanding of the brain.
 
-*For more details and results, see my CVPR 2025 paper [Visualizing and Controlling Cortical Responses Using Voxel-Weighted Activation Maximization](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=da0OafkAAAAJ&sortby=pubdate&citation_for_view=da0OafkAAAAJ:ufrVoPGSRksC) and my [dissertation](https://search.proquest.com/openview/afad0c719d928c55d636640b71b28b94/1?pq-origsite=gscholar&cbl=18750&diss=y).*
+*For more details and results, see my CVPR 2025 paper [Visualizing and Controlling Cortical Responses Using Voxel-Weighted Activation Maximization](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=da0OafkAAAAJ&sortby=pubdate&citation_for_view=da0OafkAAAAJ:ufrVoPGSRksC) and Chapters 2 and 3 of my [dissertation](https://search.proquest.com/openview/afad0c719d928c55d636640b71b28b94/1?pq-origsite=gscholar&cbl=18750&diss=y).*
 
 *This work was also presented at CVPR 2025 and the Vision Sciences Society 2023 and 2024 Annual Meetings.*
