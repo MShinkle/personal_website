@@ -27,7 +27,6 @@ title: Matthew W. Shinkle
   <h2>Projects (WIP: more writeups coming soon)</h2>
   {% assign sorted_projects = site.projects | sort: "date" | reverse %}
   {% for project in sorted_projects %}
-  {% unless project.draft %}
   <a href="{{ project.url | relative_url }}" class="project-card">
     {% if project.image %}
     <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-card-image">
@@ -42,6 +41,5 @@ title: Matthew W. Shinkle
       {% endif %}
     </div>
   </a>
-  {% endunless %}
   {% endfor %}
 </main>

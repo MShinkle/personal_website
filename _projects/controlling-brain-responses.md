@@ -1,6 +1,6 @@
 ---
 title: "Understanding and Controlling the Brain with Feature Visualization"
-date: 2025-06-11
+date: 2025-06-01
 image: /assets/img/feature-visualization/individual_voxels.png
 tags: [Neuroscience, AI]
 links:

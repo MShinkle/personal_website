@@ -1,6 +1,6 @@
 ---
 title: "Activation Plateaus in LLMs"
-date: 2025-10-15
+date: 2025-10-01
 image: /assets/img/activation-plateaus/plateau_vs_nonplateau.png
 tags: [AI]
 links:
