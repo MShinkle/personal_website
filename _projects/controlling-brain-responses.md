@@ -56,19 +56,19 @@ And remember that we never 'tell' the algorithm what a given region processes; i
 
 ### Pushing the Limits of This Method
 
-I wanted to really push this method to its limits. To do this, I took pairs of brain regions with highly similar selectivity (e.g. both face-selective), and tried to optimize images that *specifically stimulated one, but not the other*. I also introduced an additional constraint: instead of generating images from scratch, I started with images that are already highly stimulating to both regions, and only allowed small-scale modifications to these images.
+Finally, I wanted to really push this method to its limits. To do this, I took pairs of brain regions with highly similar selectivity (e.g. both face-selective), and tried to optimize images that *specifically stimulated one, but not the other*. I also introduced an additional constraint: instead of generating images from scratch, I started with images that are already highly stimulating to both regions, and only allowed small-scale modifications to these images.
 
 Just looking at the images themselves, the results are actually somewhat interpretable. Optimizing for OFA tends to pull out individual facial components like eyes and mouths, whereas optimizing for FFA tends to blur these features while retaining overall facial structure. This generally matches the different roles in face processing suggested in prior literature.
 
 ![Face region contrast results](/assets/img/controlling-brain-responses/face_contrasts.png)
 
-We also wanted to see whether these images *actually* drove just the region they were optimized for, so we presented them to human participants and collected their real fMRI responses. This worked... somewhat? For Subject 1, images optimized for OFA drove OFA responses more strongly than did images optimized for FFA, and vice-versa for FFA. However, results for Subject 2 were less clear. A similar experiment using two scene-selective regions (OPA and PPA) also largely failed. But the fact that this worked at all, given that we were explicitly trying to push the method to its limits, makes me excited for what future improvements of these methods might enable.
+To test whether these images stimulated *just* the region they were optimized for, we presented them to human participants and collected their real fMRI responses. This worked... somewhat? For Subject 1, images optimized for OFA drove OFA responses more strongly than did images optimized for FFA, and vice-versa for FFA. However, results for Subject 2 were less clear. A similar experiment using two scene-selective regions (OPA and PPA) also largely failed. But the fact that this worked at all, given that we were explicitly trying to push the method to its limits, makes me excited for what future improvements of these methods might enable.
 
 <div class="section-divider"></div>
 
 ### Takeaways
 
-This project shows that DNN-based simulations enable the use of techniques that would otherwise be impractical or impossible with the human brain. This is a powerful opportunity to study the brain like never before. DNN-to-brain mappings mean that many techniques from AI interpretability can be translated directly to neuroscience, meaning that as our understanding of AI grows, so can our understanding of the brain.
+This project shows that DNN-based simulations enable the use of techniques that would otherwise be impractical or impossible with the human brain; this is a powerful opportunity to study the brain like never before. Furthermore, DNN-to-brain mappings mean that many techniques from AI interpretability can be translated directly to neuroscience, meaning that as our understanding of AI grows, so can our understanding of the brain.
 
 *For more details and results, see my CVPR 2025 paper [Visualizing and Controlling Cortical Responses Using Voxel-Weighted Activation Maximization](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=da0OafkAAAAJ&sortby=pubdate&citation_for_view=da0OafkAAAAJ:ufrVoPGSRksC) and Chapters 2 and 3 of my [dissertation](https://search.proquest.com/openview/afad0c719d928c55d636640b71b28b94/1?pq-origsite=gscholar&cbl=18750&diss=y).*
 
